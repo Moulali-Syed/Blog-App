@@ -8,7 +8,12 @@ const page = () => {
       <div className="authin">
         <div className="left"></div>
         <div className="right">
-          <form>
+          <form
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
             <div className="forminput_cont">
               <label htmlFor="">Name</label>
               <input type="text" name="" placeholder="enter name" id="" />

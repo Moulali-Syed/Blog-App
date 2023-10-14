@@ -13,7 +13,7 @@ const height = 300;
 const width = window.innerWidth;
 const HomeSlider = () => {
   return (
-    <div>
+    <div style={{ marginTop: '2rem' }}>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -39,7 +39,7 @@ const HomeSlider = () => {
             src={img2}
             alt=""
             width={width}
-            height={height / 2}
+            height={height}
             style={{ objectFit: 'cover' }}
           />
         </SwiperSlide>
